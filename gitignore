@@ -1,0 +1,122 @@
+# ============================================================================
+# TFG Melanoma IA - .gitignore
+# ============================================================================
+
+# ─ DATOS (datasets originales - confidenciales) ─
+data/
+!data/README.md
+*.csv
+!requirements.txt
+!.gitignore
+
+# ─ OUTPUTS GRANDES ─
+outputs/
+!outputs/.gitkeep
+*.npy
+*.npz
+*.pt
+*.pth
+*.h5
+*.keras
+*.pb
+
+# ─ IMÁGENES (muy pesadas) ─
+generated_images/
+synthetic_samples/
+*.jpg
+*.jpeg
+*.png
+*.tiff
+*.tif
+*.bmp
+!outputs/figures/.gitkeep  # Mantener carpeta de gráficas finales
+
+# ─ CHECKPOINTS & MODELOS ENTRENADOS ─
+checkpoints/
+models/
+*.ckpt
+*.safetensors
+runs/  # TensorBoard
+
+# ─ PYTHON ─
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ─ ENTORNOS VIRTUALES ─
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv
+
+# ─ IDE & EDITORES ─
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# ─ JUPYTER NOTEBOOKS ─
+.ipynb_checkpoints
+*.ipynb_checkpoints
+.jupyter
+
+# ─ LOGS & TEMPORALES ─
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+.cache/
+.pytest_cache/
+
+# ─ SISTEMA ─
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# ─ ARCHIVOS SENSIBLES ─
+.env
+.env.local
+*.secret
+credentials.json
+secrets/
+auth/
+
+# ─ DOCUMENTOS LOCALES DE DESARROLLO ─
+notebook_development.ipynb
+test_local.py
+debug/
+
+# ─ GITHUB (si lo usas) ─
+.github/workflows/secrets
+.github/ISSUE_TEMPLATE
