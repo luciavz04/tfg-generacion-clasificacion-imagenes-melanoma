@@ -214,7 +214,7 @@ Este proyecto está bajo licencia **MIT**. Consulta `LICENSE` para detalles.
 
 - **Autora:** Lucía Vela
 - **Email:** luciavela04@gmail.com
-- **GitHub:** [@tu-usuario](https://github.com/luciavz04)
+- **GitHub:** [@luciavz04](https://github.com/luciavz04)
 
 ---
 
