@@ -97,7 +97,7 @@ TFG-Melanoma-IA/
 
 ---
 
-## 🚀 Instalación y Uso Rápido
+## Instalación y Uso Rápido
 
 ### 1. Clonar el Repositorio
 ### 2. Instalar Dependencias
