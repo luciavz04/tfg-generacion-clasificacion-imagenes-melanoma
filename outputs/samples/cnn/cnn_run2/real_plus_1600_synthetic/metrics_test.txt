@@ -1,0 +1,9 @@
+Confusion matrix:
+[[200 129]
+ [ 95 168]]
+
+precision:	0.566
+recall:   	0.639
+accuracy: 	0.622
+f1-score: 	0.600
+auc:      	0.62
